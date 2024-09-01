@@ -73,6 +73,6 @@ mkDerivation rec {
     changelog = "https://github.com/supercollider/supercollider/blob/Version-${version}/CHANGELOG.md";
     maintainers = [ ];
     license = licenses.gpl3Plus;
-    platforms = platforms.linux;
+    platforms = platforms.linux + "aarch64-darwin";
   };
 }
